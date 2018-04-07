@@ -145,7 +145,6 @@ nav ul li a {
 
 #contact-left{
 	padding: 170px 0 0 100px;
-	clear: both;
 }
 
 #contact-center h1 {
@@ -172,15 +171,9 @@ nav ul li a {
 
 /***** FOOTER *****/
 
-footer{
-	padding-bottom: 40px;
-	margin: 0 auto;
-}
-
 footer p {
 	font-size: 16px;
 	text-transform: uppercase;
-	float: left;
 }
 
 footer ul li {
@@ -194,7 +187,8 @@ footer ul li {
 }
 
 #copyright {
-	padding: 0 100px 0 240px;
+	padding: 0 100px 0 265px;
+	float: left;
 }
 
 #icons-credit{
