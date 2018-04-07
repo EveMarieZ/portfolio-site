@@ -172,17 +172,25 @@ nav ul li a {
 
 /***** FOOTER *****/
 
-footer ul li {
-    display: inline-block;
+footer{
+	padding-bottom: 40px;
+	margin: 0 auto;
 }
 
 footer p {
 	font-size: 16px;
 	text-transform: uppercase;
+	float: left;
 }
 
-footer .icons{
+footer ul li {
+	display: inline-block;
+}
+
+.icons{
 	padding-right: 20px;
+	padding-top: 15px;
+	float: left;
 }
 
 #copyright {
@@ -190,5 +198,6 @@ footer .icons{
 }
 
 #icons-credit{
-	padding-left: 100px;
+	padding-left: 80px;
+	float: left;
 }
